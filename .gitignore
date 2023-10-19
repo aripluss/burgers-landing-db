@@ -1,0 +1,27 @@
+# WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Node.js
+node_modules/
+
+# Compiled files
+dist/
+build/
+out/
+*.log
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Editor-specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Environment files
+.env
+.env.*
