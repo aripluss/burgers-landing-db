@@ -4,7 +4,7 @@ const jwt = require("jsonwebtoken");
 const { Admin } = require("../models");
 const { HttpError, ctrlWrapper, sendEmail } = require("../helpers");
 
-const { SECRET_KEY, BASE_URL } = process.env;
+const { SECRET_KEY } = process.env;
 
 const register = async (req, res) => {
   const { email, password } = req.body;
